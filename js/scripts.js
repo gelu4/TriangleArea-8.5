@@ -23,8 +23,8 @@ else {
 
 // triangle area with two number area
 function area2() {
-	var a = document.getElementById("value1").value;
-	var h = document.getElementById("value2").value;
+	var a = document.getElementsByTagName("input")[0].value;
+	var h = document.getElementsByClassName("value2")[0].value;
 	if (isNaN(a) || isNaN(h)) {
 		document.getElementById("score3").innerHTML = 'Musisz wpisać liczby';
 	} 
