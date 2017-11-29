@@ -2,11 +2,24 @@ body {
 	background-color: antiquewhite;
 }
 
-div {
-	font-size: 35px;
-	color: blue;
-	width: 900px;
-	height: 100px;
-	margin: 0 auto;
+section {
+	width: 700px;
+	height: 80px;
+	margin: 10px auto;
+	padding: 9px;
 }
 
+#score {
+	font-size: 30px;
+	color: blue;
+}
+
+#score2 {
+	font-size: 35px;
+	color: gray;
+}
+
+#score3 {
+	font-size: 45px;
+	color: lightcoral;
+}
